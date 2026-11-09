@@ -7,3 +7,11 @@ body {
     color: #6E3511;
     background-color: #91AC67;
 }
+
+a {
+    color: #1a5c3a;   /* mangrove green */
+}
+
+a:hover{
+    text-decoration: underline;
+}
