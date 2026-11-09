@@ -16,3 +16,7 @@ a {
 a:hover{
     text-decoration: underline;
 }
+
+#map{
+    border-radius: 15px;
+}
