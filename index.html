@@ -2,9 +2,23 @@
 <html>
 <head>
     <title>PR Mangrove Conservation Orgs</title>
+    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" />
+    <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
 </head>
 <body>
     <h1>Puerto Rico Mangrove Conservation Organizations</h1>
     <p>Map coming soon.</p>
+
+    <div id="map" style="height: 500px;"></div>
+    <script>
+    // Center on Puerto Rico (approximate center coordinates)
+    var map = L.map('map').setView([18.2, -66.4], 9);
+
+    // Add the OpenStreetMap tile layer
+    L.tileLayer('https://tile.openstreetmap.org/{z}/{x}/{y}.png', {
+        maxZoom: 19,
+        attribution: '© <a href="http://www.openstreetmap.org/copyright">OpenStreetMap</a>'
+    }).addTo(map);
+    </script>
 </body>
 </html>
