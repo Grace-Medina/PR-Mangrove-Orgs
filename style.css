@@ -10,6 +10,7 @@ body {
 
 a {
     color: #1a5c3a;   /* mangrove green */
+    text-decoration: none;
 }
 
 a:hover{
