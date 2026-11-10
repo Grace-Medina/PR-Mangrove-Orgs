@@ -22,7 +22,12 @@ a:hover{
 }
 
 .org-card{
-    border-radius: 50px;
+    border-radius: 15px;
     background-color: antiquewhite;
+    width: 300px;
+    height: 400px;
+}
+
+.org-card:hover{
     box-shadow: 10px 5px 5px;
 }
